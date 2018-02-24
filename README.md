@@ -10,6 +10,7 @@
 
 > - 增加查询待办已办接口，入参均为（QueryTaskParam param, Pageable pageable），构造QueryTaskParam时通过工厂函数构造，且可以通过流式api设置属性值
 > QueryTaskParam可设置属性：userId、taskId、processDefineKeys[list]、processTitle
+> - 同组织的支持(启动时传入提交人部门id，在后面的节点设置参与人为制单人同组织+角色，可根据部门自动找到同组织下的用户)
 >
 >- 参考信息：[开发平台后端框架参考指南-流程引擎模块](http://hq-spsdocument/_layouts/15/DocIdRedir.aspx?ID=C2A742TNNUZA-1797567310-1214)
 
