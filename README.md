@@ -2,6 +2,15 @@
 
 请查看repository-release note，或参考以下内容。
 
+## 3、新增接口 ##
+
+#### 开发平台-工作流模块（bpm） ####
+
+> - 增加查询待办已办接口，入参均为（QueryTaskParam param, Pageable pageable），构造QueryTaskParam时通过工厂函数构造，且可以通过流式api设置属性值
+> QueryTaskParam可设置属性：userId、taskId、processDefineKeys[list]、processTitle
+>
+>- 参考信息：[开发平台后端框架参考指南-流程引擎模块](http://hq-spsdocument/_layouts/15/DocIdRedir.aspx?ID=C2A742TNNUZA-1797567310-1214)
+
 ## 2、新增接口 ##
 
 2018/2/1 16:05:23
